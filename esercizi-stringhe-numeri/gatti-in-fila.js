@@ -17,3 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = 103; //tot gatti
+var b = 4;  //tot gatti per filavar
+var c = Math.ceil(a/b);  //tot file 51.5
+var d = c*b-a; //mancanti nell ultima fila
+
+
+
+console.log('Numero di file totali:',d);
+console.log('N. di gatti mancanti nell ultima fila:',c);
