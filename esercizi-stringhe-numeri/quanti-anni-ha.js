@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var oggi = 2020;
+var natoIl = 1989;
+const cento = 100;
+var eta = oggi-natoIl;
+var aniiMancanti = cento-eta;
+
+console.log('eta: ',eta);
+console.log('anni mancanti: ',anniMancanti);
