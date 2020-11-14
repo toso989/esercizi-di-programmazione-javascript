@@ -12,3 +12,14 @@
 
   http://www.imparareaprogrammare.it
 */
+let totSecondi = 17200;
+
+let min = totSecondi%3600;
+
+let sec = min%60;
+let ore = (totSecondi-min-sec)/3600;
+min = (min-sec)/60;
+console.log('ore: '+Math.round(ore));
+console.log('minuti:  '+Math.round(min));
+console.log('secondi: '+Math.round(sec));
+
