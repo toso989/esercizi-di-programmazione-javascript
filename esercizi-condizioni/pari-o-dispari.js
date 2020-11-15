@@ -15,3 +15,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+*/
+
+let num= 11;
+let a = num%2;
+let b = Boolean(a == 0);
+let c = b ? 'pari' : 'dispari';
+let d = Boolean(c=='pari')
+let e = d ? '0' : '1';
+
+console.log(e);
